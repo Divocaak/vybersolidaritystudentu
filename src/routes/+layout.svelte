@@ -15,39 +15,21 @@
 		<a href="/#co-se-deje">co se děje</a>
 		<a href="/#aktualni-prohlaseni">aktuální prohlášení</a>
 		<a href="/#kontakty">kontakty</a>
+		<a
+			href="https://docs.google.com/forms/d/e/1FAIpQLSfFS0qa8it1aV0O8JJEtRRJlWh7ipm4FwjK-NrxWuOu1HVmQQ/viewform"
+			target="_blank"
+		>
+			kontaktní formulář
+		</a>
 	</div>
 </nav>
 
 {@render children()}
 
-<footer>
-	<p class="signature">
-		Designed, coded & maintained by
-		<a href="https://divokyvojtech.cz/" target="_blank">Vojtěch Divoký</a>
-	</p>
-</footer>
-
 <style>
 	@font-face {
-		font-family: 'Baskervville';
-		src: url('/fonts/Baskervville-VariableFont_wght.ttf') format('truetype');
-		font-weight: 400 700;
-		font-style: normal;
-		font-display: swap;
-	}
-
-	@font-face {
-		font-family: 'DaxPro';
-		src: url('/fonts/DaxPro-Light.otf') format('opentype');
-		font-weight: 300;
-		font-style: normal;
-		font-display: swap;
-	}
-
-	@font-face {
-		font-family: 'DaxPro';
-		src: url('/fonts/DaxPro-WideBold.otf') format('opentype');
-		font-weight: 700;
+		font-family: 'TikTokSans';
+		src: url('/TikTokSans-VariableFont_opsz,slnt,wdth,wght.ttf') format('truetype');
 		font-style: normal;
 		font-display: swap;
 	}
@@ -69,45 +51,43 @@
 
 		--border-width: 5px;
 
-		--color-primary: #243b64;
-		--color-background: #f5f0e6;
-		--color-text: #202321;
-		--color-accent: #e9c84a;
-		--color-secondary: #d8d3c8;
-
-		--color-surface: #fffcf7;
-		--color-text-muted: #625f58;
-		--color-border: #d8d3c8;
+		--color-primary: #f4e8db;
+		--color-text: #f2e3d3;
+		--color-accent: #383e55;
+		--color-fx: #8d8a91;
 	}
 
 	:global(html) {
 		scroll-behavior: smooth;
 	}
 
-	:global(h1, h2, h3, a) {
-		font-family: 'DaxPro', sans-serif;
+	:global(h1, h2, h3) {
+		font-weight: 900;
+	}
+	:global(a),
+	:global(.attention-text) {
 		font-weight: 700;
 	}
 
 	:global(body) {
-		background: linear-gradient(135deg, #f5f0e6 0%, #e6dac2 100%);
+		background: linear-gradient(135deg, #33384f 0%, #1d233c 100%);
 		color: var(--color-text);
-		font-family: 'Baskervville', serif;
+		font-family: 'TikTokSans', sans-serif;
 		font-weight: 400;
 	}
 
 	:global(h1) {
 		font-size: var(--text-48);
 	}
-	
-	:global(h2){
+
+	:global(h2) {
 		font-size: var(--text-36);
 	}
 
 	:global(p),
 	:global(a) {
 		font-size: var(--text-20);
-		line-height: calc(var(--text-20) * 1.25);
+		line-height: calc(var(--text-20) * 1.35);
 	}
 
 	:global(.attention-text) {
@@ -117,47 +97,11 @@
 		border-radius: 5px;
 	}
 
-	nav {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-
-		padding: 1rem 0;
-
-		border-bottom: var(--border-width) solid var(--color-primary);
-	}
-
-	nav h1 {
-		text-align: center;
-	}
-
-	nav div {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		gap: var(--gap);
-	}
-
-	footer,
-	footer p,
-	footer a {
-		all: revert;
-	}
-
-	footer {
-		margin-top: 400px;
-	}
-
-	footer p {
-		text-align: end;
-		font-size: xx-small;
-	}
-
 	:global(a) {
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: bold;
-		color: #243b64;
+		color: var(--color-primary);
 
 		display: inline-block;
 		vertical-align: middle;
@@ -175,49 +119,70 @@
 		transform: scale(1.1);
 	}
 
-	nav a::after {
-		content: '';
-		position: absolute;
-		left: 0;
-		bottom: -4px;
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1rem;
+
+		padding: 1rem var(--gap);
+		border-bottom: var(--border-width) solid var(--color-primary);
+	}
+
+	nav h1 {
 		width: 100%;
-		height: 2px;
-		background: currentColor;
-		transform: scaleX(0);
-		transform-origin: left;
-		transition: transform 0.2s ease;
+		margin: 0;
+		text-align: center;
+		overflow-wrap: anywhere;
 	}
 
-	nav a:hover,
-	nav a:focus-visible {
-		color: #172744;
+	nav div {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 0.75rem 2rem;
+		width: 100%;
 	}
 
-	nav a:hover::after,
-	nav a:focus-visible::after,
-	nav a[aria-current='page']::after {
-		transform: scaleX(1);
+	nav a {
+		text-align: center;
 	}
 
-	nav a:focus-visible {
-		outline: 2px solid #243b64;
-		outline-offset: 6px;
-	}
-
+	/* Tablets */
 	@media (max-width: 1023px) {
 		:global(:root) {
-			--gap: 1rem;
+			--gap: 1.5rem;
 		}
 	}
 
+	/* Mobile */
 	@media (max-width: 599px) {
 		:global(:root) {
 			--gap: 1rem;
 		}
 
 		nav {
-			flex-direction: column;
-			padding-left: var(--gap);
+			padding: 1rem var(--gap);
+			gap: 0.75rem;
+		}
+
+		nav h1 {
+			font-size: var(--text-32);
+			line-height: 1.15;
+		}
+
+		nav div {
+			gap: 0.75rem 1rem;
+		}
+
+		nav a {
+			max-width: 100%;
+			font-size: var(--text-16);
+			line-height: 1.4;
+			overflow-wrap: anywhere;
 		}
 	}
 </style>
