@@ -21,8 +21,8 @@
 			<span class="attention-text">již ve středu 28. října v 11:55.</span>
 		</p>
 		<p>Detailnější informace zveřejníme brzy.</p>
-		<p>Váš tým SOLIS</p>
-		<img src="/logo.jpg" alt="logo graphics" />
+		<p>Váš tým Vss</p>
+		<img src="/banner.jpg" alt="banner" />
 	</section>
 
 	<section id="co-se-deje">
@@ -144,20 +144,22 @@
 	}
 
 	section:not(:last-of-type) {
-		border-bottom: calc(var(--border-width) / 2) solid var(--color-border);
+		border-bottom: calc(var(--border-width) / 2) solid var(--color-fx);
 	}
 
 	#protest img {
-		position: relative;
 		display: block;
+		position: relative;
 
-		max-width: 100%;
-		max-height: 400px;
-		width: auto;
+		width: 100vw;
+		max-width: none;
 		height: auto;
+		max-height: none;
 
-		object-fit: contain;
-		margin: 0 auto;
+		margin-left: calc(50% - 50vw);
+		margin-right: calc(50% - 50vw);
+
+		object-fit: cover;
 	}
 
 	.text-left {
