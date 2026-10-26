@@ -9,10 +9,13 @@
 </svelte:head>
 
 <nav>
-	<a href="/#protest">protest</a>
-	<a href="/#co-se-deje">co se děje</a>
-	<a href="/#aktualni-prohlaseni">aktuální prohlášení</a>
-	<a href="/#kontakty">kontakty</a>
+	<h1>VÝBOR SOLIDARITY STUDENTŮ</h1>
+	<div>
+		<a href="/#protest">protest</a>
+		<a href="/#co-se-deje">co se děje</a>
+		<a href="/#aktualni-prohlaseni">aktuální prohlášení</a>
+		<a href="/#kontakty">kontakty</a>
+	</div>
 </nav>
 
 {@render children()}
@@ -25,6 +28,30 @@
 </footer>
 
 <style>
+	@font-face {
+		font-family: 'Baskervville';
+		src: url('/fonts/Baskervville-VariableFont_wght.ttf') format('truetype');
+		font-weight: 400 700;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'DaxPro';
+		src: url('/fonts/DaxPro-Light.otf') format('opentype');
+		font-weight: 300;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'DaxPro';
+		src: url('/fonts/DaxPro-WideBold.otf') format('opentype');
+		font-weight: 700;
+		font-style: normal;
+		font-display: swap;
+	}
+
 	:global(:root) {
 		--ui-scale: 1;
 
@@ -57,13 +84,24 @@
 		scroll-behavior: smooth;
 	}
 
+	:global(h1, h2, h3, a) {
+		font-family: 'DaxPro', sans-serif;
+		font-weight: 700;
+	}
+
 	:global(body) {
-		background-color: var(--color-background);
+		background: linear-gradient(135deg, #f5f0e6 0%, #e6dac2 100%);
 		color: var(--color-text);
+		font-family: 'Baskervville', serif;
+		font-weight: 400;
 	}
 
 	:global(h1) {
 		font-size: var(--text-48);
+	}
+	
+	:global(h2){
+		font-size: var(--text-36);
 	}
 
 	:global(p),
@@ -81,13 +119,23 @@
 
 	nav {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
-		gap: var(--gap);
 
 		padding: 1rem 0;
 
 		border-bottom: var(--border-width) solid var(--color-primary);
+	}
+
+	nav h1 {
+		text-align: center;
+	}
+
+	nav div {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: var(--gap);
 	}
 
 	footer,
