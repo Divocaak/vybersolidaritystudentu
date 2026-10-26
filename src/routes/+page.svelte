@@ -4,30 +4,65 @@
 
 <main>
 	<section id="protest">
-		<h1>PROTEST 28. 10.</h1>
-		<p>Milí studenti, drahá akademická obec,</p>
+		<h2>PROTEST 28. 10.</h2>
+		<p>Milé studentstvo, Vážená akademická obci,</p>
 		<p>
-			<span class="attention-text">VE STŘEDU JDEME NA SVOBOĎÁK!!!</span>
-			Záleží nám na budoucnosti Česka. Proto chceme společně odmítnout snahu vládní koalice zrušit koncesionářské
-			poplatky a zavést financování České televize a Českého rozhlasu přímo ze státního rozpočtu.
+			<span class="attention-text">Ve středu jdeme na Náměstí Svobody!</span>
 		</p>
 		<p>
-			Situace si žádá rychlou reakci, proto svoláváme setkání <span class="attention-text"
-				>již ve středu 28. října v 11:55</span
-			>. Sejdeme se v poklidné atmosféře bez jakýchkoliv náznaků násilí a překračování mezí zákona.
+			Znepokojení ze současného dění ohledně zákona týkajícího se financování veřejnoprávních médií
+			nás nutí jednat. Na budoucnosti České republiky a zachování pojistek demokracie v ní nám
+			hluboce záleží. Proto chceme společně odmítnout snahu vládní koalice zrušit koncesionářské
+			poplatky a zavést financování České televize a Českého rozhlasu ze státního rozpočtu, které
+			toto významně ohrožuje.
+		</p>
+		<p>
+			Situace si žádá rychlou akci, proto svoláváme setkání již tuto
+			<span class="attention-text">již ve středu 28. října v 11:55.</span>
 		</p>
 		<p>Detailnější informace zveřejníme brzy.</p>
-		<p>Tým VSS</p>
+		<p>Váš tým SOLIS</p>
 		<img src="/logo.jpg" alt="logo graphics" />
 	</section>
 
 	<section id="co-se-deje">
-		<h1>CE SE DĚJE</h1>
-		<p>TBA</p>
+		<h2>CO SE DĚJE</h2>
+		<p>
+			Výbor solidarity studentů je aktivní studentská iniciativa založená na Janáčkově akademii
+			múzických umění v Brně. Výbor založili studenti a studentky JAMU v reakci na projednávání
+			návrhu na zrušení koncesionářských poplatků a následné urychlené jednání Poslanecké sněmovny
+			dne 23. 10. 2026. Odmítáme snahu vládní koalice zrušit koncesionářské poplatky a zavést
+			financování
+		</p>
+		<p>
+			České televize a Českého rozhlasu přímo ze státního rozpočtu, což by ohrozilo nezávislost a
+			kvalitu těchto médií. Jednání, které vládní většina záměrně urychluje, a předchází tak veřejné
+			debatě o tomto kroku, vykazuje známky pokusu o autoritářské ovládnutí veřejnoprávních médií,
+			jejichž nezávislost je klíčovým pilířem demokratického systému naší republiky.
+		</p>
+		<p>
+			Naším cílem je sdružovat studenty vysokých a středních škol i jednotlivé studentské iniciativy
+			a vytvářet angažovanou síť připravenou hájit demokratické principy a upozorňovat na jejich
+			narušování. Nepodléháme žádné politické straně ani instituci. Nezastupujeme univerzity jako
+			instituce, ale vystupujeme jako nezávislá studentská skupina a jednotlivci.
+		</p>
+		<p>
+			Naším úkolem je vytvářet politický tlak na vládní struktury prostřednictvím participace ve
+			veřejném prostoru, a to v oblastech, v nichž oslabují demokratické principy, za kterými pevně
+			stojíme. Iniciativa vznikla jako bezprostřední reakce na aktuální dění a v současnosti se
+			zaměřuje především na pokus vládní koalice o zestátnění veřejnoprávních médií. Nejde však o
+			její jediný zájem.
+		</p>
+		<p>
+			Chceme aktivně a napříč společností posilovat hlas studentstva, a proto jsme otevřeni
+			mezinárodní spolupráci. Ve výboru dosud působí studenti a studentky Univerzity Karlovy,
+			Masarykovy univerzity, Divadelní fakulty Akademie múzických umění, Akademie výtvarných umění,
+			Vysoké školy uměleckoprůmyslové a Vyšší odborné školy herecké.
+		</p>
 	</section>
 
 	<section id="aktualni-prohlaseni">
-		<h1>AKTUÁLNÍ PROHLÁŠENÍ</h1>
+		<h2>AKTUÁLNÍ PROHLÁŠENÍ</h2>
 		<p>
 			Prohlášení Výboru solidarity studentů JAMU Studentstvo JAMU, které znepokojeně sleduje
 			projednávání návrhu na zrušení televizního a rozhlasového poplatku a způsob, jakým byl bod
@@ -64,10 +99,11 @@
 			Eva Kaslova<br />
 			Veronika Hušková
 		</p>
+		<a href="/TZ_Vss_20261026.pdf" download>stáhnout tiskovou zprávu</a>
 	</section>
 
 	<section id="kontakty">
-		<h1>KONTAKTY</h1>
+		<h2>KONTAKTY</h2>
 		<div>
 			<IconButton
 				href="https://www.instagram.com/vyborsolidaritystudentu/"
