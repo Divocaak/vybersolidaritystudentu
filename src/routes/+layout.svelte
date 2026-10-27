@@ -26,6 +26,13 @@
 
 {@render children()}
 
+<footer>
+	<p class="signature">
+		Code & maintenance:
+		<a href="https://divokyvojtech.cz/" target="_blank">Vojtěch Divoký</a>
+	</p>
+</footer>
+
 <style>
 	@font-face {
 		font-family: 'TikTokSans';
@@ -95,6 +102,22 @@
 		font-weight: bold;
 		padding: 5px 10px;
 		border-radius: 5px;
+	}
+
+	footer,
+	footer p,
+	footer a {
+		all: revert;
+		color: var(--color-fx);
+	}
+
+	footer {
+		margin-top: 400px;
+	}
+
+	footer p {
+		text-align: end;
+		font-size: xx-small;
 	}
 
 	:global(a) {
