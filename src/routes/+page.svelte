@@ -99,7 +99,9 @@
 			Eva Kaslova<br />
 			Veronika Hušková
 		</p>
-		<a href="/TZ_Vss_20261026.pdf" download>stáhnout tiskovou zprávu</a>
+		<a href="/TZ_Vss_20261026.pdf" download>tisková zpráva</a><br />
+		<a href="/vsp_jamu.pdf" download>vyhlášení stávkové pohotovosti JAMU</a><br />
+		<a href="/vsp_vss.pdf" download>vyhlášení stávkové pohotovosti vss</a>
 	</section>
 
 	<section id="kontakty">
