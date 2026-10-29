@@ -3,6 +3,41 @@
 </script>
 
 <main>
+	<section>
+		<h2>AKTUÁLNÍ PROHLÁŠENÍ A VÝZVA VÝBORU SOLIDARITY STUDENTŮ:</h2>
+		<span class="text-left">
+			<p>Výbor solidarity studentů</p>
+			<p>
+				Výbor solidarity studentů v reakci na jednání vládních politiků, kteří dali jasně najevo, že
+				nechtějí vést dialog s veřejností <span class="attention-text"
+					>vyhlašuje na 3. 11. 2026 akční stávku</span
+				> na podporu médií veřejné služby, České televize a Českého rozhlasu a jejich zaměstnanců.
+			</p>
+			<p>
+				<b>
+					Podporujeme <a
+						href="https://www.damu.cz/cs/aktuality/vyzva-k-aktivnimu-protestu-5607/"
+						target="_blank">Výzvu k aktivnímu protestu DAMU</a
+					> a otevřený dopis studenstvu:</b
+				>
+			</p>
+			<p>
+				Vyzýváme studentstvo a veřejnost, přidejte se k nám. Akční stávka je založena na sériích
+				aktivit zvanou Vlna solidarity, jejichž cílem bude informovat veřejnost o smyslu a významu
+				veřejnoprávních médií a nezávislé kultury. Chceme konkrétně přispět k dialogu i s tou částí
+				společnosti, která ohrožení svobody médií a nezávislé kultury dosud nevnímá jako palčivý
+				problém.
+			</p>
+			<p>
+				Informace o možné formě zapojení do akční stávky najdete na informačních kanálech Výboru
+				solidarity studentů.
+			</p>
+			<p>Děkujeme, že nejste lhostejní. Děkujeme vám za podporu.</p>
+			<p>Podpořte akční stávku 3.11.</p>
+			<p>Děkujeme.</p>
+			<p>Výbor solidarity studentů</p>
+		</span>
+	</section>
 	<section id="protest">
 		<h2>PROTEST 28. 10.</h2>
 		<p>Milé studentstvo, Vážená akademická obci,</p>
