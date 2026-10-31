@@ -3,6 +3,39 @@
 </script>
 
 <main>
+	<section>
+		<h2>AKTUÁLNÍ PROHLÁŠENÍ A VÝZVA K ZAPOJENÍ:</h2>
+		<span class="text-left">
+			<p>Výbor solidarity studentů</p>
+			<p>
+				Výbor solidarity studentů v reakci na jednání vládních politiků, kteří dali jasně najevo, že
+				nechtějí vést dialog s veřejností, vyhlašuje na <span class="attention-text"
+					>3. listopadu 2026 akční stávku</span
+				> ve formě Vlny solidarity na podporu médií veřejné služby, České televize, Českého rozhlasu a
+				jejich zaměstnanců a zaměstnankyň. Výbor si váží všech dalších kultivovaných iniciativ, které
+				napříč republikou na podporu mediální nezávislosti vznikly, a deklaruje vůli ke spolupráci s nimi.
+				Výbor solidarity studentů v reakci na jednání vládních politiků, kteří dali jasně najevo, že nechtějí
+				vést dialog s veřejností vyhlašuje na 3. 11. 2026 akční stávku na podporu médií veřejné služby,
+				České televize a Českého rozhlasu a jejich zaměstnanců.
+			</p>
+			<p>Vyzýváme studentstvo a veřejnost: <b>Přidejte se k nám</b>.</p>
+			<p>
+				Akční stávka je založena na Vlně solidarity, totiž sérii událostí, jejichž cílem je
+				informovat veřejnost o smyslu a významu veřejnoprávních médií a nezávislé kultury. Chceme
+				konkrétně přispět k dialogu i s tou částí společnosti, která ohrožení svobody médií a
+				nezávislé kultury dosud nevnímá jako palčivý problém.
+			</p>
+			<p>
+				Informace o možné formě zapojení do akční stávky najdete na informačních kanálech Výboru
+				solidarity studentů.
+			</p>
+			<p>Podpořte akční stávku 3. listopadu 2026</p>
+			<p>Děkujeme, že nejste lhostejní.</p>
+			<a href="/jak-se-pripojit.pdf" download>jak se připojit</a><br/>
+			<a href="/vyzva-k-podpore.pdf" download>výzva k podpoře akční stávky</a><br/>
+			<a href="/retezova-reakce.pdf" download>Přidejte se k akci Řetězová reakce 3. 11. 2026</a>
+		</span>
+	</section>
 	<section id="protest">
 		<h2>PROTEST 28. 10.</h2>
 		<p>Milé studentstvo, Vážená akademická obci,</p>
