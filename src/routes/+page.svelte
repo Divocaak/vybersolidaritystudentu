@@ -32,7 +32,8 @@
 			<p>Podpořte akční stávku 3. listopadu 2026</p>
 			<p>Děkujeme, že nejste lhostejní.</p>
 			<a href="/jak-se-pripojit.pdf" download>jak se připojit</a><br/>
-			<a href="/vyzva-k-podpore.pdf" download>výzva k podpoře akční stávky</a>
+			<a href="/vyzva-k-podpore.pdf" download>výzva k podpoře akční stávky</a><br/>
+			<a href="/retezova-reakce.pdf" download>Přidejte se k akci Řetězová reakce 3. 11. 2026</a>
 		</span>
 	</section>
 	<section id="protest">
